@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDNotificationSystem", "SOLIDNotificationSystem\SOLIDNotificationSystem.csproj", "{79E506F6-3260-4F4F-BBFF-380E0D5A835B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Domain", "NotificationSystem.Domain\NotificationSystem.Domain.csproj", "{5C02456B-DB6D-420F-A40C-20AB2563F511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Application", "NotificationSystem.Application\NotificationSystem.Application.csproj", "{D828076A-A7E5-4427-B239-824BF145FFE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{79E506F6-3260-4F4F-BBFF-380E0D5A835B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79E506F6-3260-4F4F-BBFF-380E0D5A835B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79E506F6-3260-4F4F-BBFF-380E0D5A835B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C02456B-DB6D-420F-A40C-20AB2563F511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C02456B-DB6D-420F-A40C-20AB2563F511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C02456B-DB6D-420F-A40C-20AB2563F511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C02456B-DB6D-420F-A40C-20AB2563F511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D828076A-A7E5-4427-B239-824BF145FFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D828076A-A7E5-4427-B239-824BF145FFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D828076A-A7E5-4427-B239-824BF145FFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D828076A-A7E5-4427-B239-824BF145FFE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
