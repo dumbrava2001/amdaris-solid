@@ -4,5 +4,5 @@ namespace NotificationSystem.Application.Services.User.Interfaces;
 
 public interface IUserService
 {
-    void Notify(Domain.User user, BaseNotification notification);
+    void Notify(BaseNotification notification);
 }

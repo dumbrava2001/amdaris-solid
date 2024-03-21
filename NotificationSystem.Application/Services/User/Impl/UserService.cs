@@ -13,9 +13,9 @@ public class UserService : IUserService
         _notificationService = notificationService;
     }
 
-    public void Notify(Domain.User user, BaseNotification notification)
+    public void Notify(BaseNotification notification)
     {
         Console.WriteLine("Sending notification using notification service");
-        _notificationService.SendNotification(user, notification);
+        _notificationService.SendNotification(notification);
     }
 }

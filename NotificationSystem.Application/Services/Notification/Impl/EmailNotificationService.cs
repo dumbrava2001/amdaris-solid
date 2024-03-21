@@ -5,7 +5,7 @@ namespace NotificationSystem.Application.Services.Notification.Impl;
 
 public class EmailNotificationService : INotificationService
 {
-    public void SendNotification(Domain.User user, BaseNotification notification)
+    public void SendNotification(BaseNotification notification)
     {
         throw new NotImplementedException();
     }
