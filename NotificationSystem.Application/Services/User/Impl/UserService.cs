@@ -1,4 +1,4 @@
-﻿using NotificationSystem.Application.Modules;
+﻿using NotificationSystem.Application.Models;
 using NotificationSystem.Application.Services.Notification.Interfaces;
 using NotificationSystem.Application.Services.User.Interfaces;
 
@@ -13,7 +13,7 @@ public class UserService : IUserService
         _notificationService = notificationService;
     }
 
-    public void Notify(Domain.User user, INotification notification)
+    public void Notify(Domain.User user, BaseNotification notification)
     {
         Console.WriteLine("Sending notification using notification service");
         _notificationService.SendNotification(user, notification);
