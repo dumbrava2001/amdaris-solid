@@ -3,8 +3,8 @@
 public abstract class BaseNotification
 {
     public string From { get; init; }
-    private string To { get; init; }
-    private string Message { get; init; }
+    public string To { get; init; }
+    public string Message { get; init; }
 
     protected BaseNotification(string from, string to, string message)
     {

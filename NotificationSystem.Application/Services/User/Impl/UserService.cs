@@ -15,7 +15,7 @@ public class UserService : IUserService
 
     public void Notify(BaseNotification notification)
     {
-        Console.WriteLine("Sending notification using notification service");
+        Console.WriteLine("\nSending notification using notification service from user service");
         _notificationService.SendNotification(notification);
     }
 }

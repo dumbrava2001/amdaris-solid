@@ -7,6 +7,7 @@ public class PushNotificationService : INotificationService
 {
     public void SendNotification(BaseNotification notification)
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Create notification window...");
+        Console.WriteLine($"Display notification window to {notification.To} from {notification.From}");
     }
 }

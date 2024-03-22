@@ -3,10 +3,11 @@ using NotificationSystem.Application.Services.Notification.Interfaces;
 
 namespace NotificationSystem.Application.Services.Notification.Impl;
 
-public class SMSNotificationService : INotificationService
+public class SmsNotificationService : INotificationService
 {
     public void SendNotification(BaseNotification notification)
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Create phone network provider link...");
+        Console.WriteLine($"Sending sms to {notification.To} from {notification.From}");
     }
 }

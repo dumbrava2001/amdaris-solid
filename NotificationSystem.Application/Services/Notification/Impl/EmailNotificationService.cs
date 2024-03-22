@@ -7,6 +7,7 @@ public class EmailNotificationService : INotificationService
 {
     public void SendNotification(BaseNotification notification)
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Creating smtp client connection...");
+        Console.WriteLine($"Sending message to {notification.To} from {notification.From}");
     }
 }

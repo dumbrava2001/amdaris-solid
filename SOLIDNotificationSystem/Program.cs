@@ -38,7 +38,7 @@ internal static class Program
         BaseNotification smsNotification = new SmsNotification(from: from.Phone, to: to.Phone,
             message: "You should come to the office now!!!");
 
-        IUserService userService = new UserService(new SMSNotificationService());
+        IUserService userService = new UserService(new SmsNotificationService());
         userService.Notify(smsNotification);
     }
 
